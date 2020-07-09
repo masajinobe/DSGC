@@ -1,4 +1,4 @@
-# Script 6-strings guitar for Dark Souls🔥 (Control not set up)
+# Script 6-strings guitar for Dark Souls🔥
 
 ![gif](https://user-images.githubusercontent.com/52446061/87093551-ccf7f680-c256-11ea-89e1-062f88f82a21.gif)
 
@@ -10,6 +10,8 @@ https://en.wikipedia.org/wiki/Guitar_tunings
 https://newt.phys.unsw.edu.au/jw/notes.html
 
 #### Using
+**Control not set up!!!**
+
 1. Make sure your `line in` you plug your guitar works correctly.
 
 2. In the `settings.ini` file, specify the sample rate of your audio card, and the index of the input channel. The index of the input channel is defined in `index.exe`.
