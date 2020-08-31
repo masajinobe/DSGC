@@ -1,6 +1,6 @@
 import numpy as np
 import pyaudio
-from control import key_control
+from control import control_move
 from configparser import ConfigParser
 
 ######################################################################
@@ -96,7 +96,7 @@ while stream.is_active():
 
     # Get note number and nearest note
     n = freq_to_number(freq)
-    n0 = int(round(n))
+    note = int(round(n))
 
     # Control
-    key_control(n0)
+    control_move(note)
